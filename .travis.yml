@@ -6,3 +6,5 @@ deploy:
  api-key: 
   secure: canovasnovaescola
  app: ci-spring-boot
+before_install:
+  - chmod +x mvnw
