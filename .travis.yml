@@ -4,7 +4,7 @@ jdk:
 deploy:
  provider: heroku
  api-key: 
-  secure: canovasnovaescola
+  secure: $HEROKU_API_KEY
  app: canovasnovaescola
 before_install:
   - chmod +x mvnw
