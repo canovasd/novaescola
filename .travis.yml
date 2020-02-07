@@ -5,6 +5,6 @@ deploy:
  provider: heroku
  api-key: 
   secure: canovasnovaescola
- app: ci-spring-boot
+ app: canovasnovaescola
 before_install:
   - chmod +x mvnw
