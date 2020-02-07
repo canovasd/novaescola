@@ -1,12 +1,12 @@
-# Fundação Nova Escola Rest Application
+# Aplicação Rest Fundação Nova Escola
 
-Esta é uma aplicação web simples aplicadno conceitos de construção de API usando Java e Springboot.
+Esta é uma aplicação web simples aplicando conceitos de construção de API usando Java e SpringBoot.
 
 Os dados utilizados são gravados apenas em memória e serão perdidos ao resetar o servidor.
 
 
 ## Executando
-Para rodar a aplicação localmente, executa a classe principal localizada em **project-dir**\src\main\java\com\nova\escola\prova\ProvaApplication.java
+Para rodar a aplicação localmente, executar a classe principal localizada em **project-dir**\src\main\java\com\nova\escola\prova\ProvaApplication.java
 
 
 ## Inserindo dados
@@ -49,4 +49,6 @@ Para remover um cliente, basta enviar uma requisição DEL para o endereço:
 
 ## Integração Contínua
 A cada novo commit no projeto, um novo build é disparado no Travis, como pode ser acompanhado em:
+<https://travis-ci.org/canovasd/novaescola/>
 
+Em caso de sucesso, uma nova versão da aplicação ficará disponível no Heroku.
